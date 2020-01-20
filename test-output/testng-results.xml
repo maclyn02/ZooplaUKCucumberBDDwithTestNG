@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="25427" started-at="2020-01-20T22:59:54 GMT" finished-at="2020-01-20T23:00:20 GMT">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="RunCucumberTests.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTests@4c70fda8]" name="scenario" class="RunCucumberTests"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="Search Zoopla" duration-ms="25427" started-at="2020-01-20T22:59:54 GMT" finished-at="2020-01-20T23:00:20 GMT">
+      <class name="RunCucumberTests">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunCucumberTests@4c70fda8]" name="setUpClass" is-config="true" duration-ms="295" started-at="2020-01-20T22:59:54 GMT" finished-at="2020-01-20T22:59:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCucumberTests@4c70fda8]" name="scenario" duration-ms="24786" started-at="2020-01-20T22:59:55 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-01-20T23:00:19 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search feature for "zoopla.co.uk""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunCucumberTests@4c70fda8]" name="tearDownClass" is-config="true" duration-ms="218" started-at="2020-01-20T23:00:19 GMT" finished-at="2020-01-20T23:00:20 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunCucumberTests -->
+    </test> <!-- Search Zoopla -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
