@@ -16,5 +16,5 @@ Scenario Outline: Search scenario
   Examples:
   | location  |
   | London    |
-  | Edgware   |
-  | Oxford    |
+  #  | Edgware   |
+  #  | Oxford    |

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "./src/test/java/Features/",
         tags = "@Search",
-        plugin = "html:target/CucumberHTMLReports/cucumber-html-report",
+        plugin = {"html:target/CucumberHTMLReports/cucumber-html-report",},
         junit = "--step-notifications",
         monochrome = true
 )
